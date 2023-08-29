@@ -27,17 +27,17 @@ background_image = pygame.image.load(os.path.join("background_image1-1.jpg")).co
 # 調整圖片大小
 background_image = pygame.transform.scale(background_image, (900, 1181.25))
 # 載入棋子
-chess1 = 'blackChess.png'
-chess2 = 'whiteChess.png'
+chess1 = ''
+chess2 = ''
 # 引入音效、音樂
 # 下棋音效X
-play_sound = pygame.mixer.Sound(os.path.join("play_chess.mp3"))
+play_sound = pygame.mixer.Sound(os.path.join(""))
 # 黑棋玩家獲勝音效
-winner_sound2 = pygame.mixer.Sound(os.path.join("white.mp3"))
+winner_sound2 = pygame.mixer.Sound(os.path.join(""))
 # 白旗玩家獲勝音效
-winner_sound1 = pygame.mixer.Sound(os.path.join("black.mp3"))
+winner_sound1 = pygame.mixer.Sound(os.path.join(""))
 # 背景音樂
-pygame.mixer.music.load("background_music.mp3")
+pygame.mixer.music.load("")
 # 設置背景音樂音量
 pygame.mixer.music.set_volume(0.7)
 # 重複撥放背景音樂
